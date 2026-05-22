@@ -20,7 +20,7 @@ export function Solution() {
             MathSpark Builds <span className="text-primary">Strong Maths Confidence</span>
           </h2>
           <p className="mt-4 text-muted-foreground">
-            At MathSpark, we provide personalized online maths tutoring for Class 1 to 10
+            At MathSpark, we provide personalized online maths tutoring for Class 1 to 12
             students. Our tutors focus on concept clarity, practice, homework help, exam
             preparation, and confidence building — class after class.
           </p>
