@@ -23,7 +23,7 @@ export function HowItWorks() {
               key={s.n}
               className="rounded-2xl bg-card border border-border p-6 shadow-soft hover:shadow-card transition-all relative"
             >
-              <div className="text-5xl font-bold font-display bg-clip-text text-transparent gradient-accent leading-none">
+              <div className="text-5xl font-bold font-display text-accent leading-none">
                 {s.n}
               </div>
               <h3 className="mt-4 font-semibold text-lg">{s.title}</h3>
