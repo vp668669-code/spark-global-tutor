@@ -1,22 +1,22 @@
 const grades = [
   {
     range: "Class 1–2",
-    color: "from-pink-200 to-orange-200",
+    gradient: "linear-gradient(135deg, oklch(0.72 0.22 315), oklch(0.78 0.18 350))",
     topics: ["Number sense", "Addition & Subtraction", "Shapes", "Basic concepts"],
   },
   {
     range: "Class 3–5",
-    color: "from-yellow-200 to-amber-200",
+    gradient: "linear-gradient(135deg, oklch(0.8 0.18 70), oklch(0.74 0.2 40))",
     topics: ["Multiplication & Division", "Fractions", "Decimals", "Word problems"],
   },
   {
     range: "Class 6–8",
-    color: "from-sky-200 to-blue-200",
+    gradient: "linear-gradient(135deg, oklch(0.7 0.18 220), oklch(0.65 0.22 260))",
     topics: ["Algebra basics", "Ratios & Percentages", "Geometry", "Integers"],
   },
   {
     range: "Class 9–10",
-    color: "from-violet-200 to-indigo-200",
+    gradient: "linear-gradient(135deg, oklch(0.75 0.2 160), oklch(0.7 0.22 195))",
     topics: ["Algebra", "Geometry", "Trigonometry", "Statistics & Exam Prep"],
   },
 ];
@@ -40,8 +40,11 @@ export function Grades() {
               key={g.range}
               className="rounded-2xl bg-card border border-border p-6 shadow-soft hover:shadow-card hover:-translate-y-1 transition-all"
             >
-              <div className={`w-full h-24 rounded-xl bg-gradient-to-br ${g.color} grid place-items-center mb-5`}>
-                <span className="font-display font-bold text-2xl text-primary">{g.range}</span>
+              <div
+                className="w-full h-24 rounded-xl grid place-items-center mb-5 shadow-sog"
+                style={{ background: g.gradient }}
+              >
+                <span className="font-display font-bold text-2xl text-background">{g.range}</span>
               </div>
               <ul className="space-y-2">
                 {g.topics.map((t) => (
