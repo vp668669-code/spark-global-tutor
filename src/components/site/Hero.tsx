@@ -26,7 +26,7 @@ export function Hero() {
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] text-foreground">
             Make Your Child{" "}
-            <span className="bg-clip-text text-transparent gradient-primary">Confident</span>{" "}
+            <span className="relative inline-block text-accent">Confident</span>{" "}
             in Maths
           </h1>
           <p className="mt-5 text-lg text-muted-foreground max-w-xl">
