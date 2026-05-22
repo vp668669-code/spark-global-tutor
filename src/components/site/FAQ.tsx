@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 const faqs = [
-  { q: "Which classes do you teach?", a: "We teach Maths from Class 1 to Class 10." },
+  { q: "Which classes do you teach?", a: "We teach Maths from Class 1 to Class 12." },
   {
     q: "Do you teach students outside India?",
     a: "Yes, we teach students from USA, Canada, UK, Australia, Middle East and other global locations.",

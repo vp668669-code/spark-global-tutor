@@ -13,7 +13,7 @@ export function Footer() {
             Math<span className="text-accent">Spark</span>
           </a>
           <p className="mt-3 text-primary-foreground/80 max-w-sm">
-            Online Maths Tutoring for Class 1 to 10. Spark confidence in Maths.
+            Online Maths Tutoring for Class 1 to 12. Spark confidence in Maths.
           </p>
           <a
             href="#book"
