@@ -19,6 +19,11 @@ const grades = [
     gradient: "linear-gradient(135deg, oklch(0.75 0.2 160), oklch(0.7 0.22 195))",
     topics: ["Algebra", "Geometry", "Trigonometry", "Statistics & Exam Prep"],
   },
+  {
+    range: "Class 11–12",
+    gradient: "linear-gradient(135deg, oklch(0.7 0.22 30), oklch(0.72 0.22 350))",
+    topics: ["Calculus", "Vectors & 3D Geometry", "Probability", "Board & Competitive Prep"],
+  },
 ];
 
 const boards = ["CBSE", "ICSE", "Indian State Boards", "Common Core (USA)", "UK / Canada / Australia", "Homework & Tests"];
@@ -34,7 +39,7 @@ export function Grades() {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-5">
           {grades.map((g) => (
             <div
               key={g.range}
