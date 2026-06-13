@@ -1,8 +1,8 @@
 import { Frown, BookX, Brain, Clock4, User, Briefcase } from "lucide-react";
 
 const items = [
-  { icon: Frown, title: "Low confidence in maths", desc: "Hesitates to attempt problems or ask questions in class." },
-  { icon: BookX, title: "Difficulty in word problems", desc: "Struggles to translate language into equations." },
+  { icon: Frown, title: "Low confidence in Math & Science", desc: "Hesitates to attempt problems or ask questions in class." },
+  { icon: BookX, title: "Difficulty in word problems", desc: "Struggles to translate language into equations or concepts." },
   { icon: Brain, title: "Weak basics", desc: "Gaps in fundamentals make new topics harder." },
   { icon: Clock4, title: "Fear of exams", desc: "Stress and anxiety before tests and assessments." },
   { icon: User, title: "Needs personal attention", desc: "Classroom pace doesn't suit every learner." },
@@ -14,7 +14,7 @@ export function Problem() {
     <section id="about" className="py-20 md:py-28 bg-background">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="max-w-2xl mx-auto text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold">Is Your Child Struggling With Maths?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Is Your Child Struggling With Math or Science?</h2>
           <p className="mt-3 text-muted-foreground">
             You're not alone. These are the most common challenges parents share with us.
           </p>

@@ -1,10 +1,10 @@
 import { GraduationCap, DollarSign, UserCheck, BookOpen, Globe2, LineChart } from "lucide-react";
 
 const features = [
-  { icon: GraduationCap, title: "Expert Indian Maths Tutors", desc: "Hand-picked, trained and experienced in teaching global students." },
+  { icon: GraduationCap, title: "Expert Indian Math & Science Tutors", desc: "Hand-picked, trained and experienced in teaching global students." },
   { icon: DollarSign, title: "Affordable Global Pricing", desc: "Premium 1-on-1 classes at just $9/hour — unbeatable value." },
   { icon: UserCheck, title: "Personalized 1-on-1 Attention", desc: "Every class is designed around your child's pace and goals." },
-  { icon: BookOpen, title: "Class 1 to 12 Curriculum", desc: "Full coverage from number sense to algebra, geometry and trigonometry." },
+  { icon: BookOpen, title: "Class 1 to 12 Curriculum", desc: "Full Math & Science coverage — from basics to algebra, geometry, physics, chemistry and biology." },
   { icon: Globe2, title: "Flexible Global Time Slots", desc: "Convenient timings for USA, Canada, UK, Australia and Middle East." },
   { icon: LineChart, title: "Practice & Progress Updates", desc: "Regular homework, assessments and parent feedback reports." },
 ];

@@ -34,7 +34,7 @@ export function Pricing() {
               <span className="text-muted-foreground font-medium">/ hour</span>
             </div>
             <p className="mt-3 text-muted-foreground">
-              Live 1-on-1 maths tutoring with expert Indian tutors.
+              Live 1-on-1 Math & Science tutoring with expert Indian tutors.
             </p>
 
             <ul className="mt-6 space-y-3">

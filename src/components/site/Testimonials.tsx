@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 const items = [
   {
     quote:
-      "My son became more confident in maths within a few weeks. The teacher explains very patiently.",
+      "My son became more confident in Math and Science within a few weeks. The teacher explains very patiently.",
     name: "Priya S.",
     location: "New Jersey, USA",
   },

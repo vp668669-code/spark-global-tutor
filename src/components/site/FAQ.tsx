@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 const faqs = [
-  { q: "Which classes do you teach?", a: "We teach Maths from Class 1 to Class 12." },
+  { q: "Which subjects and classes do you teach?", a: "We teach Math and Science from Class 1 to Class 12 — including Physics, Chemistry and Biology at higher levels." },
   {
     q: "Do you teach students outside India?",
     a: "Yes, we teach students from USA, Canada, UK, Australia, Middle East and other global locations.",
@@ -12,11 +12,11 @@ const faqs = [
   { q: "Do you offer a trial class?", a: "Yes, parents can book a free trial class." },
   {
     q: "What curriculum do you support?",
-    a: "We support CBSE, ICSE, Indian boards, and international school maths requirements.",
+    a: "We support CBSE, ICSE, Indian boards, and international school Math & Science requirements.",
   },
   {
     q: "Do you help with homework?",
-    a: "Yes, we help with homework, concepts, practice and exam preparation.",
+    a: "Yes, we help with homework, concepts, practice and exam preparation across Math and Science.",
   },
 ];
 

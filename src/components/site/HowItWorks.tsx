@@ -2,7 +2,7 @@ const steps = [
   { n: "01", title: "Book a Free Trial", desc: "Fill the simple form and tell us about your child." },
   { n: "02", title: "We Assess The Level", desc: "Our tutor evaluates strengths and gaps in the trial class." },
   { n: "03", title: "Create a Learning Plan", desc: "A personalized roadmap aligned with the school curriculum." },
-  { n: "04", title: "Regular Online Classes", desc: "Your child starts live 1-on-1 maths classes at $9/hour." },
+  { n: "04", title: "Regular Online Classes", desc: "Your child starts live 1-on-1 Math & Science classes at $9/hour." },
   { n: "05", title: "Parent Progress Updates", desc: "Receive feedback, reports and improvement insights." },
 ];
 
@@ -13,7 +13,7 @@ export function HowItWorks() {
         <div className="max-w-2xl mx-auto text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold">How It Works</h2>
           <p className="mt-3 text-muted-foreground">
-            From your first message to confident maths — in 5 simple steps.
+            From your first message to confident Math & Science — in 5 simple steps.
           </p>
         </div>
 

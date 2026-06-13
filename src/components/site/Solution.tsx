@@ -17,12 +17,12 @@ export function Solution() {
             Our Approach
           </div>
           <h2 className="text-3xl md:text-4xl font-bold leading-tight">
-            CrestQ Builds <span className="text-primary">Strong Maths Confidence</span>
+            CrestQ Builds <span className="text-primary">Strong Math & Science Confidence</span>
           </h2>
           <p className="mt-4 text-muted-foreground">
-            At CrestQ, we provide personalized online maths tutoring for Class 1 to 12
-            students. Our tutors focus on concept clarity, practice, homework help, exam
-            preparation, and confidence building — class after class.
+            At CrestQ, we provide personalized online Math and Science tutoring for Class 1
+            to 12 students. Our tutors focus on concept clarity, practice, homework help,
+            exam preparation, and confidence building — class after class.
           </p>
         </div>
         <ul className="grid gap-3">
