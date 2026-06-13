@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { SITE } from "@/lib/config";
-import { Menu, X, Sparkles } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logoAsset from "@/assets/crestq-logo.png.asset.json";
 
 const links = [
   { href: "#home", label: "Home" },
@@ -33,12 +34,10 @@ export function Nav() {
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
-        <a href="#home" className="flex items-center gap-2 font-display font-bold text-lg">
-          <span className="w-9 h-9 rounded-xl gradient-primary text-primary-foreground grid place-items-center shadow-soft">
-            <Sparkles className="w-5 h-5" />
-          </span>
-          <span className="text-foreground">
-            Math<span className="text-accent">Spark</span>
+        <a href="#home" className="flex items-center gap-2.5 font-display font-bold text-lg">
+          <img src={logoAsset.url} alt="CrestQ logo" className="w-10 h-10 object-contain" />
+          <span className="text-foreground tracking-wide">
+            Crest<span className="text-accent">Q</span>
           </span>
         </a>
 

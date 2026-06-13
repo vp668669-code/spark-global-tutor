@@ -1,27 +1,27 @@
 const grades = [
   {
     range: "Class 1–2",
-    gradient: "linear-gradient(135deg, oklch(0.72 0.22 315), oklch(0.78 0.18 350))",
+    gradient: "linear-gradient(135deg, oklch(0.82 0.14 88), oklch(0.92 0.05 90))",
     topics: ["Number sense", "Addition & Subtraction", "Shapes", "Basic concepts"],
   },
   {
     range: "Class 3–5",
-    gradient: "linear-gradient(135deg, oklch(0.8 0.18 70), oklch(0.74 0.2 40))",
+    gradient: "linear-gradient(135deg, oklch(0.78 0.15 80), oklch(0.88 0.08 90))",
     topics: ["Multiplication & Division", "Fractions", "Decimals", "Word problems"],
   },
   {
     range: "Class 6–8",
-    gradient: "linear-gradient(135deg, oklch(0.7 0.18 220), oklch(0.65 0.22 260))",
+    gradient: "linear-gradient(135deg, oklch(0.4 0.08 255), oklch(0.82 0.14 88))",
     topics: ["Algebra basics", "Ratios & Percentages", "Geometry", "Integers"],
   },
   {
     range: "Class 9–10",
-    gradient: "linear-gradient(135deg, oklch(0.75 0.2 160), oklch(0.7 0.22 195))",
+    gradient: "linear-gradient(135deg, oklch(0.35 0.07 255), oklch(0.78 0.13 85))",
     topics: ["Algebra", "Geometry", "Trigonometry", "Statistics & Exam Prep"],
   },
   {
     range: "Class 11–12",
-    gradient: "linear-gradient(135deg, oklch(0.7 0.22 30), oklch(0.72 0.22 350))",
+    gradient: "linear-gradient(135deg, oklch(0.28 0.06 255), oklch(0.82 0.14 88))",
     topics: ["Calculus", "Vectors & 3D Geometry", "Probability", "Board & Competitive Prep"],
   },
 ];
