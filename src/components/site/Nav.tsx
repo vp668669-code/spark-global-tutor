@@ -36,9 +36,7 @@ export function Nav() {
       <nav className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-2.5 font-display font-bold text-lg">
           <img src={logoAsset.url} alt="CrestQ logo" className="w-10 h-10 object-contain" />
-          <span className="text-foreground tracking-wide">
-            Crest<span className="text-accent">Q</span>
-          </span>
+          <span className="text-foreground tracking-wide">CrestQ</span>
         </a>
 
         <div className="hidden lg:flex items-center gap-7">
