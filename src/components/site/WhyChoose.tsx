@@ -15,7 +15,7 @@ export function WhyChoose() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="max-w-2xl mx-auto text-center mb-14">
           <div className="inline-block px-3 py-1 rounded-full bg-accent-soft text-accent-foreground text-xs font-semibold mb-4">
-            Why MathSpark
+            Why CrestQ
           </div>
           <h2 className="text-3xl md:text-4xl font-bold">Why Parents Worldwide Choose Us</h2>
           <p className="mt-3 text-muted-foreground">

@@ -62,7 +62,7 @@ export function BookingForm() {
         </div>
         <h3 className="text-2xl font-bold">Thank you!</h3>
         <p className="mt-3 text-muted-foreground max-w-md mx-auto">
-          MathSpark will contact you soon to schedule your free trial class.
+          CrestQ will contact you soon to schedule your free trial class.
         </p>
         <button
           onClick={() => {

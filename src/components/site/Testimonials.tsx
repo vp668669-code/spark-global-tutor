@@ -15,7 +15,7 @@ const items = [
   },
   {
     quote:
-      "MathSpark helped my daughter improve her basics and solve word problems with confidence.",
+      "CrestQ helped my daughter improve her basics and solve word problems with confidence.",
     name: "Anita K.",
     location: "London, UK",
   },
