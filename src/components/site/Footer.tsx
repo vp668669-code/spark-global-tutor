@@ -11,7 +11,7 @@ export function Footer() {
             Crest<span className="text-accent">Q</span>
           </a>
           <p className="mt-3 text-primary-foreground/80 max-w-sm">
-            Visual Learning for Higher Scores. Online Maths tutoring for Class 1 to 12.
+            Visual Learning for Higher Scores. Online Math & Science tutoring for Class 1 to 12.
           </p>
           <a
             href="#book"

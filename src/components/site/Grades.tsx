@@ -2,27 +2,27 @@ const grades = [
   {
     range: "Class 1–2",
     gradient: "linear-gradient(135deg, oklch(0.82 0.14 88), oklch(0.92 0.05 90))",
-    topics: ["Number sense", "Addition & Subtraction", "Shapes", "Basic concepts"],
+    topics: ["Number sense & shapes", "Addition & Subtraction", "Living vs non-living", "Our environment"],
   },
   {
     range: "Class 3–5",
     gradient: "linear-gradient(135deg, oklch(0.78 0.15 80), oklch(0.88 0.08 90))",
-    topics: ["Multiplication & Division", "Fractions", "Decimals", "Word problems"],
+    topics: ["Multiplication, fractions, decimals", "Word problems", "Plants, animals & body", "Matter, force & energy"],
   },
   {
     range: "Class 6–8",
     gradient: "linear-gradient(135deg, oklch(0.4 0.08 255), oklch(0.82 0.14 88))",
-    topics: ["Algebra basics", "Ratios & Percentages", "Geometry", "Integers"],
+    topics: ["Algebra & Geometry basics", "Ratios & Percentages", "Physics & Chemistry intro", "Biology fundamentals"],
   },
   {
     range: "Class 9–10",
     gradient: "linear-gradient(135deg, oklch(0.35 0.07 255), oklch(0.78 0.13 85))",
-    topics: ["Algebra", "Geometry", "Trigonometry", "Statistics & Exam Prep"],
+    topics: ["Algebra, Geometry, Trigonometry", "Statistics & Exam Prep", "Physics & Chemistry", "Biology & Board Prep"],
   },
   {
     range: "Class 11–12",
     gradient: "linear-gradient(135deg, oklch(0.28 0.06 255), oklch(0.82 0.14 88))",
-    topics: ["Calculus", "Vectors & 3D Geometry", "Probability", "Board & Competitive Prep"],
+    topics: ["Calculus, Vectors, Probability", "Physics — Mechanics & Modern", "Chemistry — Organic, Inorganic, Physical", "Biology / Board & Competitive Prep"],
   },
 ];
 
@@ -33,7 +33,7 @@ export function Grades() {
     <section id="grades" className="py-20 md:py-28 bg-secondary/40">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="max-w-2xl mx-auto text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold">Maths Classes We Offer</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Math & Science Classes We Offer</h2>
           <p className="mt-3 text-muted-foreground">
             Structured curriculum from foundations to board exam preparation.
           </p>

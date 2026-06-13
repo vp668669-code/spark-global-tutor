@@ -3,7 +3,7 @@ import { ArrowRight, MessageCircle, Star } from "lucide-react";
 import heroImg from "@/assets/hero-student.jpg";
 
 const badges = [
-  "Class 1–12 Maths",
+  "Class 1–12 Math & Science",
   "1-on-1 Online",
   "International Students",
   "Indian Expert Tutors",
@@ -27,10 +27,10 @@ export function Hero() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] text-foreground">
             Make Your Child{" "}
             <span className="relative inline-block text-accent">Confident</span>{" "}
-            in Maths
+            in Math & Science
           </h1>
           <p className="mt-5 text-lg text-muted-foreground max-w-xl">
-            Live online maths tutoring for Class 1 to 12 students across USA, Canada
+            Live online Math & Science tutoring for Class 1 to 12 students across USA, Canada
             and global locations — only <strong className="text-foreground">$9/hour</strong>.
           </p>
 
@@ -68,7 +68,7 @@ export function Hero() {
           <div className="relative rounded-[2rem] overflow-hidden shadow-card bg-card border border-border animate-float">
             <img
               src={heroImg}
-              alt="Happy student learning maths online with a friendly tutor on a video call"
+              alt="Happy student learning Math and Science online with a friendly tutor on a video call"
               width={1280}
               height={1024}
               className="w-full h-auto"
