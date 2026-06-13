@@ -8,7 +8,7 @@ export function Footer() {
         <div className="md:col-span-2">
           <a href="#home" className="flex items-center gap-2.5 font-display font-bold text-xl">
             <img src={logoAsset.url} alt="CrestQ logo" className="w-10 h-10 object-contain" />
-            Crest<span className="text-accent">Q</span>
+            CrestQ
           </a>
           <p className="mt-3 text-primary-foreground/80 max-w-sm">
             Visual Learning for Higher Scores. Online Math & Science tutoring for Class 1 to 12.
