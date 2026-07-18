@@ -38,7 +38,7 @@ export function Nav() {
             <Sparkles className="w-5 h-5" />
           </span>
           <span className="text-foreground">
-            Math<span className="text-accent">Spark</span>
+            crestQ
           </span>
         </a>
 

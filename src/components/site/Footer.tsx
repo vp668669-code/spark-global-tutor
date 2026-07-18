@@ -10,7 +10,7 @@ export function Footer() {
             <span className="w-9 h-9 rounded-xl bg-accent text-accent-foreground grid place-items-center">
               <Sparkles className="w-5 h-5" />
             </span>
-            Math<span className="text-accent">Spark</span>
+            crestQ
           </a>
           <p className="mt-3 text-primary-foreground/80 max-w-sm">
             Online Maths Tutoring for Class 1 to 12. Spark confidence in Maths.
