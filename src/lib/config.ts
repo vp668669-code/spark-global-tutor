@@ -1,5 +1,5 @@
 export const SITE = {
-  name: "MathSpark",
+  name: "crestQ",
   tagline: "Spark confidence in Maths.",
   email: "hello@mathspark.com",
   whatsappNumber: "919611677429", // Update here (international format, no + or spaces)
