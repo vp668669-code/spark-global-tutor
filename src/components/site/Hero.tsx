@@ -3,11 +3,11 @@ import { ArrowRight, MessageCircle, Star } from "lucide-react";
 import heroImg from "@/assets/hero-student.jpg";
 
 const badges = [
-  "Class 1–12 Maths",
+  "Class 1–12 Math & Science",
   "1-on-1 Online",
   "International Students",
   "Indian Expert Tutors",
-  "Only $9/hour",
+  "Only $10/hour",
   "Flexible Timings",
 ];
 
@@ -27,11 +27,11 @@ export function Hero() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] text-foreground">
             Make Your Child{" "}
             <span className="relative inline-block text-accent">Confident</span>{" "}
-            in Maths
+            in Math & Science
           </h1>
           <p className="mt-5 text-lg text-muted-foreground max-w-xl">
-            Live online maths tutoring for Class 1 to 12 students across USA, Canada
-            and global locations — only <strong className="text-foreground">$9/hour</strong>.
+            Live online Math & Science tutoring for Class 1 to 12 students across USA, Canada
+            and global locations — only <strong className="text-foreground">$10/hour</strong>.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -68,7 +68,7 @@ export function Hero() {
           <div className="relative rounded-[2rem] overflow-hidden shadow-card bg-card border border-border animate-float">
             <img
               src={heroImg}
-              alt="Happy student learning maths online with a friendly tutor on a video call"
+              alt="Happy student learning Math & Science online with a friendly tutor on a video call"
               width={1280}
               height={1024}
               className="w-full h-auto"
@@ -85,7 +85,7 @@ export function Hero() {
           </div>
           <div className="absolute -top-4 -right-4 bg-card border border-border rounded-2xl px-4 py-3 shadow-card hidden sm:block">
             <div className="text-xs text-muted-foreground">Starting at</div>
-            <div className="text-xl font-bold text-primary">$9<span className="text-sm text-muted-foreground">/hr</span></div>
+            <div className="text-xl font-bold text-primary">$10<span className="text-sm text-muted-foreground">/hr</span></div>
           </div>
         </div>
       </div>

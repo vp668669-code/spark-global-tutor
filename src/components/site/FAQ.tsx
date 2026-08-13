@@ -2,17 +2,17 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 
 const faqs = [
-  { q: "Which classes do you teach?", a: "We teach Maths from Class 1 to Class 12." },
+  { q: "Which classes do you teach?", a: "We teach Math & Science from Class 1 to Class 12." },
   {
     q: "Do you teach students outside India?",
     a: "Yes, we teach students from USA, Canada, UK, Australia, Middle East and other global locations.",
   },
-  { q: "What is the fee?", a: "Our fee is $9 per hour." },
+  { q: "What is the fee?", a: "Our fee is $10 per hour." },
   { q: "Is the class 1-on-1?", a: "Yes, classes are personalized and conducted live online." },
   { q: "Do you offer a trial class?", a: "Yes, parents can book a free trial class." },
   {
     q: "What curriculum do you support?",
-    a: "We support CBSE, ICSE, Indian boards, and international school maths requirements.",
+    a: "We support CBSE, ICSE, Indian boards, and international school Math & Science requirements.",
   },
   {
     q: "Do you help with homework?",

@@ -9,6 +9,8 @@ const links = [
   { href: "#why", label: "Why Us" },
   { href: "#pricing", label: "Pricing" },
   { href: "#how", label: "How It Works" },
+  { href: "#educators", label: "Educators" },
+
   { href: "#faq", label: "FAQ" },
   { href: "#contact", label: "Contact" },
 ];
