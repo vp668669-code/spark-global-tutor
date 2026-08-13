@@ -13,7 +13,7 @@ export function Footer() {
             crestQ
           </a>
           <p className="mt-3 text-primary-foreground/80 max-w-sm">
-            Online Maths Tutoring for Class 1 to 12. Spark confidence in Maths.
+            Online Math & Science Tutoring for Class 1 to 12. Spark confidence in Math & Science.
           </p>
           <a
             href="#book"
@@ -55,7 +55,7 @@ export function Footer() {
       <div className="border-t border-primary-foreground/15">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-primary-foreground/70">
           <p>© {new Date().getFullYear()} crestQ. All rights reserved.</p>
-          <p>crestQ — Spark confidence in Maths.</p>
+          <p>crestQ — Spark confidence in Math & Science.</p>
         </div>
       </div>
     </footer>

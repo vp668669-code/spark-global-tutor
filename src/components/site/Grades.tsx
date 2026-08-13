@@ -33,7 +33,7 @@ export function Grades() {
     <section id="grades" className="py-20 md:py-28 bg-secondary/40">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="max-w-2xl mx-auto text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold">Maths Classes We Offer</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Math & Science Classes We Offer</h2>
           <p className="mt-3 text-muted-foreground">
             Structured curriculum from foundations to board exam preparation.
           </p>

@@ -146,7 +146,7 @@ export function BookingForm() {
           />
         </div>
         <div>
-          <label className="text-sm font-medium mb-1.5 block">Maths Topic Help Needed</label>
+          <label className="text-sm font-medium mb-1.5 block">Math & Science Topic Help Needed</label>
           <input
             className={field("topic")}
             placeholder="Fractions, algebra, geometry..."

@@ -30,11 +30,11 @@ export function Pricing() {
               Per Hour
             </div>
             <div className="mt-2 flex items-baseline gap-2">
-              <span className="text-6xl md:text-7xl font-bold font-display text-foreground">$9</span>
+              <span className="text-6xl md:text-7xl font-bold font-display text-foreground">$10</span>
               <span className="text-muted-foreground font-medium">/ hour</span>
             </div>
             <p className="mt-3 text-muted-foreground">
-              Live 1-on-1 maths tutoring with expert Indian tutors.
+              Live 1-on-1 Math & Science tutoring with expert Indian tutors.
             </p>
 
             <ul className="mt-6 space-y-3">
