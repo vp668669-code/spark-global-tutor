@@ -1,4 +1,5 @@
 import { GraduationCap } from "lucide-react";
+import teachingImg from "@/assets/educator-teaching.jpg";
 
 const educators = [
   {
@@ -59,6 +60,18 @@ export function Educators() {
             experience in Math &amp; Science.
           </p>
         </div>
+
+        <div className="mb-12 rounded-2xl overflow-hidden border border-border shadow-card">
+          <img
+            src={teachingImg}
+            alt="crestQ educator teaching quadratic equations on a digital whiteboard in a live online class"
+            loading="lazy"
+            width={1200}
+            height={704}
+            className="w-full h-auto"
+          />
+        </div>
+
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {educators.map((e) => (

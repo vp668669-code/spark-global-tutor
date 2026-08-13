@@ -1,4 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
+import classImg from "@/assets/online-class.jpg";
 
 const points = [
   "Concept clarity built from the ground up",
@@ -24,6 +25,16 @@ export function Solution() {
             students. Our tutors focus on concept clarity, practice, homework help, exam
             preparation, and confidence building — class after class.
           </p>
+          <div className="mt-8 rounded-2xl overflow-hidden border border-border shadow-card">
+            <img
+              src={classImg}
+              alt="Student attending a live online Math and Science class with crestQ"
+              loading="lazy"
+              width={1200}
+              height={912}
+              className="w-full h-auto"
+            />
+          </div>
         </div>
         <ul className="grid gap-3">
           {points.map((p) => (
