@@ -46,7 +46,7 @@ export const Route = createFileRoute("/")({
           areaServed: ["US", "CA", "GB", "AU", "AE", "IN"],
           offers: {
             "@type": "Offer",
-            price: "9",
+            price: "10",
             priceCurrency: "USD",
             description: "Online 1-on-1 Math & Science Tutoring (per hour)",
           },
