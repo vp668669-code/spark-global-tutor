@@ -7,7 +7,9 @@ import { WhyChoose } from "@/components/site/WhyChoose";
 import { Grades } from "@/components/site/Grades";
 import { Pricing } from "@/components/site/Pricing";
 import { HowItWorks } from "@/components/site/HowItWorks";
+import { Educators } from "@/components/site/Educators";
 import { Testimonials } from "@/components/site/Testimonials";
+
 import { FAQ } from "@/components/site/FAQ";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
@@ -67,6 +69,8 @@ function Index() {
         <Grades />
         <Pricing />
         <HowItWorks />
+        <Educators />
+
         <Testimonials />
         <FAQ />
         <Contact />

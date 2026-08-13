@@ -1,13 +1,16 @@
 import { Check, ArrowRight } from "lucide-react";
 
 const includes = [
-  "Live 1-on-1 online class",
+  "Live 1-on-1 60-minute class on Zoom",
+  "2 or 3 classes each week",
+  "Blocks of 8 classes = $80 (paid in advance)",
   "Personalized learning plan",
   "Homework support",
   "Concept practice & worksheets",
   "Progress feedback to parents",
   "Flexible global time slots",
 ];
+
 
 export function Pricing() {
   return (
@@ -27,12 +30,13 @@ export function Pricing() {
               Best Value
             </div>
             <div className="text-sm font-semibold text-primary uppercase tracking-wide">
-              Per Hour
+              Per 60-Min Class
             </div>
             <div className="mt-2 flex items-baseline gap-2">
               <span className="text-6xl md:text-7xl font-bold font-display text-foreground">$10</span>
-              <span className="text-muted-foreground font-medium">/ hour</span>
+              <span className="text-muted-foreground font-medium">/ class</span>
             </div>
+
             <p className="mt-3 text-muted-foreground">
               Live 1-on-1 Math & Science tutoring with expert Indian tutors.
             </p>
