@@ -1,5 +1,4 @@
 import { Star } from "lucide-react";
-import successImg from "@/assets/students-success.jpg";
 
 const items = [
   {
@@ -53,16 +52,6 @@ export function Testimonials() {
           ))}
         </div>
 
-        <div className="mt-12 rounded-2xl overflow-hidden border border-border shadow-card">
-          <img
-            src={successImg}
-            alt="Confident crestQ students celebrating improved Math and Science exam results"
-            loading="lazy"
-            width={1200}
-            height={704}
-            className="w-full h-auto"
-          />
-        </div>
       </div>
     </section>
   );
